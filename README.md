@@ -2,6 +2,8 @@
 
 **Aplicación de la telefonía IP Issabel para fomentar la comunicación entre las áreas en la empresa Teleperformance.**
 
+Proyecto académico desarrollado en el curso de Redes y Comunicaciones I.
+
 ## Descripción del proyecto
 
 TelefoniaIPIssabel es un proyecto que documenta la implementación y configuración de una central de telefonía IP utilizando Issabel PBX, con el propósito de mejorar la comunicación interna entre las diferentes áreas de una organización.
@@ -33,6 +35,17 @@ El proyecto contempla la configuración del servidor Issabel, la integración de
 | Oracle VM VirtualBox | Software de virtualización para ejecutar el servidor. |
 | MariaDB | Sistema de gestión de bases de datos utilizado por la plataforma. |
 
+## Descarga de la máquina virtual
+
+La máquina virtual utilizada para la implementación se encuentra alojada en Google Drive.
+
+- **Archivo:** `IssabelTeleperformance.ova`
+- **Formato:** OVA (Open Virtualization Appliance).
+- **Tamaño:** 2.43 GB.
+- **Plataforma:** Oracle VM VirtualBox.
+
+[Descargar máquina virtual IssabelTeleperformance](https://drive.google.com/drive/folders/11yBe37RbWcQ9-45k-9o2DGejpzDd8zob?usp=drive_link)
+
 ## Requisitos previos
 
 Para utilizar la implementación se requiere:
@@ -57,20 +70,7 @@ Para conocer el procedimiento detallado de instalación y configuración, consul
 
 ## Documentación del proyecto
 
-El repositorio incluye los siguientes documentos en la carpeta `docs/`:
+Los documentos que acompañan el proyecto se encuentran en la carpeta `docs/`:
 
 - **Artículo académico:** presenta el desarrollo del proyecto, la metodología aplicada, los resultados obtenidos y las conclusiones.
 - **Manual de implementación:** contiene el procedimiento de instalación y configuración de Issabel PBX, creación de extensiones, configuración de IVR, colas de espera e integración con Zoiper.
-
-## Descarga de la máquina virtual
-
-La máquina virtual utilizada para la implementación se encuentra alojada en Google Drive.
-
-- **Archivo:** `IssabelTeleperformance.ova`
-- **Formato:** OVA (Open Virtualization Appliance).
-- **Tamaño:** 2.43 GB.
-- **Plataforma:** Oracle VM VirtualBox.
-
-[Descargar máquina virtual IssabelTeleperformance](https://drive.google.com/drive/folders/11yBe37RbWcQ9-45k-9o2DGejpzDd8zob?usp=drive_link)
-
-Una vez descargada, importa la máquina virtual desde VirtualBox para iniciar el servidor Issabel.
